@@ -62,7 +62,7 @@ export default function AboutPage() {
               title: "Transparency First",
               description: "Every metric, every lead, every dollar spent is tracked and reported. Our clients know exactly where their investment goes and what it generates.",
               tag: "Commitment",
-              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AP5BwcOCEdbUvGXGzmfDl4faxC/digital-audit-report-or-analytics-dashbo-1772481636177-fcab0e9b.png",
+              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AP5BwcOCEdbUvGXGzmfDl4faxC/digital-audit-report-or-analytics-dashbo-1772481636177-fcab0e9b.png?_wi=3",
               imageAlt: "Transparent reporting",
             },
             {
@@ -70,7 +70,7 @@ export default function AboutPage() {
               title: "Results-Driven Innovation",
               description: "We continuously optimize our AI algorithms and targeting strategies. Your success drives our innovation. Better leads mean better results.",
               tag: "Innovation",
-              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AP5BwcOCEdbUvGXGzmfDl4faxC/abstract-futuristic-ai-technology-visual-1772481632775-04d1d2d8.png",
+              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AP5BwcOCEdbUvGXGzmfDl4faxC/abstract-futuristic-ai-technology-visual-1772481632775-04d1d2d8.png?_wi=3",
               imageAlt: "AI innovation",
             },
             {
@@ -78,7 +78,7 @@ export default function AboutPage() {
               title: "Deep Industry Understanding",
               description: "Our team has worked in and with HVAC, plumbing, electrical, and service businesses. We understand your challenges, timelines, and what quality leads look like.",
               tag: "Expertise",
-              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AP5BwcOCEdbUvGXGzmfDl4faxC/professional-headshot-of-team-member-wit-1772481632583-cb1f6acd.png",
+              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AP5BwcOCEdbUvGXGzmfDl4faxC/professional-headshot-of-team-member-wit-1772481632583-cb1f6acd.png?_wi=1",
               imageAlt: "Industry expertise",
             },
           ]}

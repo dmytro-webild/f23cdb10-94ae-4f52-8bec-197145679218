@@ -112,7 +112,7 @@ export default function PricingPage() {
               title: "AI-Powered Targeting",
               description: "Our machine learning algorithms identify and target your ideal customers across multiple channels for maximum precision.",
               tag: "Core Feature",
-              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AP5BwcOCEdbUvGXGzmfDl4faxC/abstract-futuristic-ai-technology-visual-1772481632775-04d1d2d8.png",
+              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AP5BwcOCEdbUvGXGzmfDl4faxC/abstract-futuristic-ai-technology-visual-1772481632775-04d1d2d8.png?_wi=4",
               imageAlt: "AI targeting technology",
             },
             {
@@ -120,7 +120,7 @@ export default function PricingPage() {
               title: "Dedicated Account Management",
               description: "Get a dedicated point of contact who understands your business goals and manages your campaigns daily for optimal performance.",
               tag: "Core Feature",
-              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AP5BwcOCEdbUvGXGzmfDl4faxC/professional-headshot-of-team-member-in--1772481632698-b8cddcbc.png",
+              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AP5BwcOCEdbUvGXGzmfDl4faxC/professional-headshot-of-team-member-in--1772481632698-b8cddcbc.png?_wi=2",
               imageAlt: "Account management",
             },
             {
@@ -128,7 +128,7 @@ export default function PricingPage() {
               title: "Transparent Reporting",
               description: "Receive detailed monthly reports showing exactly what you paid for, what leads you received, and your ROI. No vanity metrics.",
               tag: "Core Feature",
-              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AP5BwcOCEdbUvGXGzmfDl4faxC/digital-audit-report-or-analytics-dashbo-1772481636177-fcab0e9b.png",
+              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AP5BwcOCEdbUvGXGzmfDl4faxC/digital-audit-report-or-analytics-dashbo-1772481636177-fcab0e9b.png?_wi=4",
               imageAlt: "Transparent reporting",
             },
           ]}

@@ -65,7 +65,7 @@ export default function ContactPage() {
               title: "Schedule a Call",
               description: "Book a time that works for your schedule. Our team will walk you through the digital audit process and answer all your questions about lead generation for your service business.",
               tag: "Calendar",
-              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AP5BwcOCEdbUvGXGzmfDl4faxC/professional-headshot-of-team-member-wit-1772481632583-cb1f6acd.png",
+              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AP5BwcOCEdbUvGXGzmfDl4faxC/professional-headshot-of-team-member-wit-1772481632583-cb1f6acd.png?_wi=2",
               imageAlt: "Schedule a call",
             },
             {
@@ -73,7 +73,7 @@ export default function ContactPage() {
               title: "Email Us",
               description: "Send us a detailed message about your business and lead generation goals. We'll respond with specific insights and next steps tailored to your situation.",
               tag: "Email",
-              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AP5BwcOCEdbUvGXGzmfDl4faxC/professional-headshot-of-diverse-team-me-1772481633100-b1fe8b6c.png",
+              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AP5BwcOCEdbUvGXGzmfDl4faxC/professional-headshot-of-diverse-team-me-1772481633100-b1fe8b6c.png?_wi=2",
               imageAlt: "Email support",
             },
             {
@@ -81,7 +81,7 @@ export default function ContactPage() {
               title: "Request Audit",
               description: "Start with a comprehensive free digital audit. We'll analyze your current marketing presence, identify opportunities, and provide actionable recommendations—no obligations attached.",
               tag: "Audit",
-              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AP5BwcOCEdbUvGXGzmfDl4faxC/call-to-action-visual-for-free-digital-a-1772481633412-e1dd491a.png",
+              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AP5BwcOCEdbUvGXGzmfDl4faxC/call-to-action-visual-for-free-digital-a-1772481633412-e1dd491a.png?_wi=2",
               imageAlt: "Free audit request",
             },
           ]}

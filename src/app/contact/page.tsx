@@ -50,7 +50,7 @@ export default function ContactPage() {
             { text: "Send Message", href: "mailto:hello@navo-lab.com" },
           ]}
           buttonAnimation="slide-up"
-          background={{ variant: "glowing-orb" }}
+          background={{ variant: "plain" }}
           useInvertedBackground={false}
         />
       </div>
@@ -61,29 +61,11 @@ export default function ContactPage() {
           description="Choose the contact method that works best for you"
           features={[
             {
-              id: "contact-1",
-              title: "Schedule a Call",
-              description: "Book a time that works for your schedule. Our team will walk you through the digital audit process and answer all your questions about lead generation for your service business.",
-              tag: "Calendar",
-              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AP5BwcOCEdbUvGXGzmfDl4faxC/professional-headshot-of-team-member-wit-1772481632583-cb1f6acd.png?_wi=2",
-              imageAlt: "Schedule a call",
-            },
+              id: "contact-1",              title: "Schedule a Call",              description: "Book a time that works for your schedule. Our team will walk you through the digital audit process and answer all your questions about lead generation for your service business.",              tag: "Calendar",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AP5BwcOCEdbUvGXGzmfDl4faxC/professional-headshot-of-team-member-wit-1772481632583-cb1f6acd.png",              imageAlt: "Schedule a call"},
             {
-              id: "contact-2",
-              title: "Email Us",
-              description: "Send us a detailed message about your business and lead generation goals. We'll respond with specific insights and next steps tailored to your situation.",
-              tag: "Email",
-              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AP5BwcOCEdbUvGXGzmfDl4faxC/professional-headshot-of-diverse-team-me-1772481633100-b1fe8b6c.png?_wi=2",
-              imageAlt: "Email support",
-            },
+              id: "contact-2",              title: "Email Us",              description: "Send us a detailed message about your business and lead generation goals. We'll respond with specific insights and next steps tailored to your situation.",              tag: "Email",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AP5BwcOCEdbUvGXGzmfDl4faxC/professional-headshot-of-diverse-team-me-1772481633100-b1fe8b6c.png",              imageAlt: "Email support"},
             {
-              id: "contact-3",
-              title: "Request Audit",
-              description: "Start with a comprehensive free digital audit. We'll analyze your current marketing presence, identify opportunities, and provide actionable recommendations—no obligations attached.",
-              tag: "Audit",
-              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AP5BwcOCEdbUvGXGzmfDl4faxC/call-to-action-visual-for-free-digital-a-1772481633412-e1dd491a.png?_wi=2",
-              imageAlt: "Free audit request",
-            },
+              id: "contact-3",              title: "Request Audit",              description: "Start with a comprehensive free digital audit. We'll analyze your current marketing presence, identify opportunities, and provide actionable recommendations—no obligations attached.",              tag: "Audit",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AP5BwcOCEdbUvGXGzmfDl4faxC/call-to-action-visual-for-free-digital-a-1772481633412-e1dd491a.png",              imageAlt: "Free audit request"},
           ]}
           animationType="slide-up"
           textboxLayout="default"
@@ -101,12 +83,7 @@ export default function ContactPage() {
           useInvertedBackground={true}
           names={["BlueFlame HVAC", "ProPlumbing Solutions", "ElectriPro Services", "RoofMax Construction", "Elite Electrical"]}
           logos={[
-            "http://img.b2bpic.net/free-vector/creative-hvac-logo-template_23-2149210119.jpg",
-            "http://img.b2bpic.net/free-vector/flat-design-construction-company-logo-template_23-2150005184.jpg",
-            "http://img.b2bpic.net/free-vector/flat-design-storm-logo-template_23-2149189464.jpg",
-            "http://img.b2bpic.net/free-vector/yellow-black-geometric-logos-monoline-style_23-2147697748.jpg",
-            "http://img.b2bpic.net/free-vector/dental-logo-template_1057-2630.jpg",
-          ]}
+            "http://img.b2bpic.net/free-vector/creative-hvac-logo-template_23-2149210119.jpg",            "http://img.b2bpic.net/free-vector/flat-design-construction-company-logo-template_23-2150005184.jpg",            "http://img.b2bpic.net/free-vector/flat-design-storm-logo-template_23-2149189464.jpg",            "http://img.b2bpic.net/free-vector/yellow-black-geometric-logos-monoline-style_23-2147697748.jpg",            "http://img.b2bpic.net/free-vector/dental-logo-template_1057-2630.jpg"]}
           speed={40}
           showCard={true}
         />

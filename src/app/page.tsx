@@ -89,7 +89,7 @@ export default function HomePage() {
               title: "Digital Audit",
               description: "We analyze your current marketing presence, identify digital opportunities, and provide transparent recommendations for lead generation improvement.",
               tag: "Step 1",
-              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AP5BwcOCEdbUvGXGzmfDl4faxC/digital-audit-report-or-analytics-dashbo-1772481636177-fcab0e9b.png",
+              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AP5BwcOCEdbUvGXGzmfDl4faxC/digital-audit-report-or-analytics-dashbo-1772481636177-fcab0e9b.png?_wi=1",
               imageAlt: "Digital audit analysis dashboard",
             },
             {
@@ -97,7 +97,7 @@ export default function HomePage() {
               title: "AI Targeting Setup",
               description: "Our AI-powered system identifies and targets your ideal customers with precision, focusing on high-intent prospects ready to book appointments.",
               tag: "Step 2",
-              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AP5BwcOCEdbUvGXGzmfDl4faxC/abstract-futuristic-ai-technology-visual-1772481632775-04d1d2d8.png",
+              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AP5BwcOCEdbUvGXGzmfDl4faxC/abstract-futuristic-ai-technology-visual-1772481632775-04d1d2d8.png?_wi=1",
               imageAlt: "AI targeting technology visualization",
             },
             {
@@ -105,7 +105,7 @@ export default function HomePage() {
               title: "Dedicated Support",
               description: "You get a dedicated strategy team providing monthly strategy calls, weekly progress reporting, and detailed metrics to ensure success.",
               tag: "Step 3",
-              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AP5BwcOCEdbUvGXGzmfDl4faxC/professional-headshot-of-team-member-in--1772481632698-b8cddcbc.png",
+              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AP5BwcOCEdbUvGXGzmfDl4faxC/professional-headshot-of-team-member-in--1772481632698-b8cddcbc.png?_wi=1",
               imageAlt: "Dedicated support team member",
             },
             {
@@ -113,7 +113,7 @@ export default function HomePage() {
               title: "Qualified Leads",
               description: "Receive consistent, phone-ready leads delivered through your preferred channel. Our focus: your phone ringing with decision-makers.",
               tag: "Step 4",
-              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AP5BwcOCEdbUvGXGzmfDl4faxC/close-up-of-smartphone-showing-incoming--1772481632952-a4ba83a2.png",
+              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AP5BwcOCEdbUvGXGzmfDl4faxC/close-up-of-smartphone-showing-incoming--1772481632952-a4ba83a2.png?_wi=1",
               imageAlt: "Qualified phone leads dashboard",
             },
           ]}
@@ -133,7 +133,7 @@ export default function HomePage() {
               title: "Transparent Reporting",
               description: "Monthly detailed metrics showing leads generated, conversion rates, cost per lead, and ROI. No vanity metrics—only what matters: phone calls and booked appointments.",
               tag: "Transparency",
-              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AP5BwcOCEdbUvGXGzmfDl4faxC/digital-audit-report-or-analytics-dashbo-1772481636177-fcab0e9b.png",
+              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AP5BwcOCEdbUvGXGzmfDl4faxC/digital-audit-report-or-analytics-dashbo-1772481636177-fcab0e9b.png?_wi=2",
               imageAlt: "Transparent reporting dashboard",
             },
             {
@@ -141,7 +141,7 @@ export default function HomePage() {
               title: "Dedicated Account Management",
               description: "Your own dedicated support team handles strategy, optimization, and reporting. Monthly calls to review performance and adjust campaigns for maximum results.",
               tag: "Support",
-              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AP5BwcOCEdbUvGXGzmfDl4faxC/professional-headshot-of-diverse-team-me-1772481633100-b1fe8b6c.png",
+              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AP5BwcOCEdbUvGXGzmfDl4faxC/professional-headshot-of-diverse-team-me-1772481633100-b1fe8b6c.png?_wi=1",
               imageAlt: "Dedicated account manager",
             },
             {
@@ -149,7 +149,7 @@ export default function HomePage() {
               title: "AI-Powered Targeting",
               description: "Advanced machine learning identifies and targets your ideal customers at the exact moment they're searching for your services. Precision beats volume every time.",
               tag: "Technology",
-              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AP5BwcOCEdbUvGXGzmfDl4faxC/abstract-futuristic-ai-technology-visual-1772481632775-04d1d2d8.png",
+              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AP5BwcOCEdbUvGXGzmfDl4faxC/abstract-futuristic-ai-technology-visual-1772481632775-04d1d2d8.png?_wi=2",
               imageAlt: "AI targeting technology",
             },
             {
@@ -165,7 +165,7 @@ export default function HomePage() {
               title: "Predictable Lead Flow",
               description: "Consistent, quality leads delivered month after month. Scale your business confidently with a reliable partner managing your digital growth.",
               tag: "Growth",
-              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AP5BwcOCEdbUvGXGzmfDl4faxC/close-up-of-smartphone-showing-incoming--1772481632952-a4ba83a2.png",
+              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AP5BwcOCEdbUvGXGzmfDl4faxC/close-up-of-smartphone-showing-incoming--1772481632952-a4ba83a2.png?_wi=2",
               imageAlt: "Predictable lead flow",
             },
             {
@@ -173,7 +173,7 @@ export default function HomePage() {
               title: "Free Digital Audit",
               description: "Start with a comprehensive, no-obligation audit of your current marketing. Discover real opportunities and get actionable recommendations with no risk.",
               tag: "Offer",
-              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AP5BwcOCEdbUvGXGzmfDl4faxC/call-to-action-visual-for-free-digital-a-1772481633412-e1dd491a.png",
+              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AP5BwcOCEdbUvGXGzmfDl4faxC/call-to-action-visual-for-free-digital-a-1772481633412-e1dd491a.png?_wi=1",
               imageAlt: "Free digital audit offer",
             },
           ]}

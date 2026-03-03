@@ -11,25 +11,28 @@ const figtree = Figtree({
 export const metadata: Metadata = {
   title: "Navo Lab | AI Lead Generation for Service Businesses",  description: "Generate qualified leads for HVAC, plumbing, electrical, roofing, and service businesses. AI-powered targeting, dedicated support, transparent reporting. Get your free digital audit today.",  keywords: "lead generation, HVAC leads, plumbing leads, service business marketing, AI targeting, qualified leads",  metadataBase: new URL("https://navo-lab.com"),
   alternates: {
-    canonical: "https://navo-lab.com"},
+    canonical: "https://navo-lab.com"
+  },
   openGraph: {
     title: "Navo Lab | AI Lead Generation Platform",    description: "We make your phone ring. Predictable leads for service businesses using AI-powered targeting and dedicated strategy.",    siteName: "Navo Lab",    type: "website",    images: [
       {
-        url: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AP5BwcOCEdbUvGXGzmfDl4faxC/a-modern-ai-powered-lead-generation-dash-1772481633855-c10db891.png",        alt: "Navo Lab Dashboard"},
-    ],
+        url: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AP5BwcOCEdbUvGXGzmfDl4faxC/a-modern-ai-powered-lead-generation-dash-1772481633855-c10db891.png",        alt: "Navo Lab Dashboard"
+      }
+    ]
   },
   twitter: {
     card: "summary_large_image",    title: "Navo Lab | AI Lead Generation",    description: "Generate qualified leads for your service business with AI-powered targeting and dedicated support.",    images: [
-      "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AP5BwcOCEdbUvGXGzmfDl4faxC/a-modern-ai-powered-lead-generation-dash-1772481633855-c10db891.png"],
+      "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AP5BwcOCEdbUvGXGzmfDl4faxC/a-modern-ai-powered-lead-generation-dash-1772481633855-c10db891.png"
+    ]
   },
   robots: {
     index: true,
-    follow: true,
-  },
+    follow: true
+  }
 };
 
 export default function RootLayout({
-  children,
+  children
 }: Readonly<{
   children: React.ReactNode;
 }>) {

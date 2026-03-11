@@ -163,7 +163,10 @@ export default function HomePage() {
           animationType="slide-up"
           textboxLayout="default"
           useInvertedBackground={false}
-          buttons={[{ text: "Get Your Free Audit", href: "/contact" }]}
+          buttons={[
+            { text: "Get Your Free Audit", href: "/contact" },
+            { text: "Schedule Strategy Call", href: "https://calendly.com" }
+          ]}
           buttonAnimation="slide-up"
         />
       </div>

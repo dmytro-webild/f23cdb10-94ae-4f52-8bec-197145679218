@@ -136,27 +136,25 @@ export default function HomePage() {
 
       <div id="pricing" data-section="pricing">
         <PricingCardOne
-          title="Investment Plans That Scale with Your Business"
-          description="Transparent pricing with zero hidden fees. Choose your support tier and scale as you grow. All plans include dedicated support and detailed monthly reporting."
-          tag="Support Tiers"
+          title="Simple, Transparent Investment"
+          description="Monthly retainers. No long-term contracts. We earn your business every month."
+          tag="Pricing"
           tagAnimation="slide-up"
           plans={[
             {
-              id: "starter",              badge: "Best for Startups",              badgeIcon: Rocket,
-              price: "$2,500",              subtitle: "Perfect for businesses just starting their digital lead generation journey",              features: [
-                "50-100 qualified leads per month",                "Weekly progress reporting",                "Basic AI targeting setup",                "Email support",                "Monthly strategy review call"
+              id: "foundation",              badge: "Foundation",              price: "$2,000",              subtitle: "Perfect for businesses starting their digital lead generation journey",              features: [
+                "Qualified leads delivered monthly",                "Weekly progress reporting",                "Basic AI targeting setup",                "Email support",                "Monthly strategy review"
               ]
             },
             {
-              id: "professional",              badge: "Most Popular",              badgeIcon: Sparkles,
-              price: "$5,000",              subtitle: "Ideal for growing service businesses ready to scale predictably",              features: [
-                "100-200 qualified leads per month",                "Weekly progress reporting",                "Advanced AI targeting",                "Dedicated account manager",                "Monthly strategy calls",                "Detailed monthly metrics dashboard",                "Campaign optimization"
+              id: "growth",              badge: "Growth",              badgeIcon: Sparkles,
+              price: "$3,500",              subtitle: "Most Popular - Ideal for growing service businesses ready to scale",              features: [
+                "Consistent qualified leads monthly",                "Weekly progress reporting",                "Advanced AI targeting",                "Dedicated account manager",                "Monthly strategy calls",                "Detailed metrics dashboard",                "Campaign optimization"
               ]
             },
             {
-              id: "enterprise",              badge: "Premium Support",              badgeIcon: Crown,
-              price: "$10,000",              subtitle: "For established businesses demanding maximum results and priority support",              features: [
-                "200-400 qualified leads per month",                "Weekly progress reporting",                "Advanced AI + custom targeting",                "Dedicated account manager + specialist",                "Bi-weekly strategy calls",                "Detailed monthly metrics dashboard",                "Advanced campaign optimization",                "Priority support (24-48 hour response)",                "Quarterly business reviews"
+              id: "scale",              badge: "Scale",              price: "$5,000",              subtitle: "Maximum lead volume and priority support for established businesses",              features: [
+                "Maximum qualified leads monthly",                "Weekly progress reporting",                "Advanced AI + custom targeting",                "Dedicated account manager + specialist",                "Bi-weekly strategy calls",                "Detailed metrics dashboard",                "Advanced campaign optimization",                "Priority support",                "Quarterly business reviews"
               ]
             }
           ]}
@@ -164,10 +162,27 @@ export default function HomePage() {
           textboxLayout="default"
           useInvertedBackground={false}
           buttons={[
-            { text: "Get Your Free Audit", href: "/contact" },
-            { text: "Schedule Strategy Call", href: "https://calendly.com" }
+            { text: "Get Started", href: "/contact" },
+            { text: "Schedule Call", href: "https://calendly.com" }
           ]}
           buttonAnimation="slide-up"
+        />
+      </div>
+
+      <div id="cta" data-section="cta">
+        <ContactCTA
+          tag="Ready to Grow"
+          tagIcon={Zap}
+          tagAnimation="slide-up"
+          title="Ready to Ask Your Phone Ringing?"
+          description="Take the next step toward predictable, qualified leads. Let's discuss how Navo Lab can transform your service business with consistent monthly lead flow."
+          buttons={[
+            { text: "Book a Call", href: "https://calendly.com" },
+            { text: "See Our Work", href: "/portfolio" }
+          ]}
+          buttonAnimation="slide-up"
+          background={{ variant: "radial-gradient" }}
+          useInvertedBackground={false}
         />
       </div>
 
@@ -203,7 +218,7 @@ export default function HomePage() {
 
       <div id="contact" data-section="contact">
         <ContactCTA
-          tag="Ready to Grow"
+          tag="Get Started Today"
           tagIcon={Zap}
           tagAnimation="slide-up"
           title="Get Your Free Digital Audit Today"

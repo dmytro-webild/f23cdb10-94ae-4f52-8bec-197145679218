@@ -39,27 +39,25 @@ export default function PricingPage() {
 
       <div id="pricing-plans" data-section="pricing-plans">
         <PricingCardOne
-          title="Choose the Plan That Fits Your Business"
-          description="Flexible, transparent pricing with zero hidden fees. Scale up as you grow. Every plan includes dedicated support, detailed reporting, and our proven lead generation process."
+          title="Simple, Transparent Investment"
+          description="Monthly retainers. No long-term contracts. We earn your business every month."
           tag="Investment Tiers"
           tagAnimation="slide-up"
           plans={[
             {
-              id: "starter",              badge: "Best for Startups",              badgeIcon: Rocket,
-              price: "$2,500",              subtitle: "Perfect for businesses just starting their digital lead generation journey",              features: [
-                "50-100 qualified leads per month",                "Weekly progress reporting",                "Basic AI targeting setup",                "Email support",                "Monthly strategy review call"
+              id: "foundation",              badge: "Foundation",              price: "$2,000/mo",              subtitle: "Perfect for single-location businesses",              features: [
+                "GBP optimization",                "Local citation building",                "Basic SEO setup",                "Monthly progress reporting",                "Email support"
               ]
             },
             {
-              id: "professional",              badge: "Most Popular",              badgeIcon: Sparkles,
-              price: "$5,000",              subtitle: "Ideal for growing service businesses ready to scale predictably",              features: [
-                "100-200 qualified leads per month",                "Weekly progress reporting",                "Advanced AI targeting",                "Dedicated account manager",                "Monthly strategy calls",                "Detailed monthly metrics dashboard",                "Campaign optimization"
+              id: "growth",              badge: "Growth",              badgeIcon: Sparkles,
+              price: "$3,500/mo",              subtitle: "Most Popular - For businesses ready to dominate their local market",              features: [
+                "Everything in Foundation",                "Full 22-point marketing system",                "Strategic content production",                "Weekly strategy calls",                "Dedicated account manager",                "Landing page optimization"
               ]
             },
             {
-              id: "enterprise",              badge: "Premium Support",              badgeIcon: Crown,
-              price: "$10,000",              subtitle: "For established businesses demanding maximum results and priority support",              features: [
-                "200-400 qualified leads per month",                "Weekly progress reporting",                "Advanced AI + custom targeting",                "Dedicated account manager + specialist",                "Bi-weekly strategy calls",                "Detailed monthly metrics dashboard",                "Advanced campaign optimization",                "Priority support (24-48 hour response)",                "Quarterly business reviews"
+              id: "scale",              badge: "Scale",              price: "$5,000/mo",              subtitle: "For businesses ready to own their market across multiple locations",              features: [
+                "Everything in Growth",                "Multi-location SEO",                "Advanced content flywheel",                "Bi-weekly strategy calls",                "Priority support",                "Paid ads management"
               ]
             }
           ]}
@@ -77,7 +75,7 @@ export default function PricingPage() {
           description="From day one, you get access to our complete platform and dedicated support"
           features={[
             {
-              id: "included-1",              title: "AI-Powered Lead Targeting",              description: "Our proprietary machine learning identifies and reaches high-intent prospects actively searching for your services. We focus on quality over quantity—every lead is pre-qualified.",              tag: "Core Feature",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AP5BwcOCEdbUvGXGzmfDl4faxC/abstract-futuristic-ai-technology-visual-1772481632775-04d1d2d8.png?_wi=4",              imageAlt: "AI targeting technology"
+              id: "included-1",              title: "Lead Generation",              description: "Our proven process identifies and reaches high-intent prospects actively searching for your services. We focus on quality over quantity—every lead is pre-qualified.",              tag: "Core Feature",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AP5BwcOCEdbUvGXGzmfDl4faxC/abstract-futuristic-ai-technology-visual-1772481632775-04d1d2d8.png?_wi=4",              imageAlt: "Lead generation technology"
             },
             {
               id: "included-2",              title: "Dedicated Account Management",              description: "You get a real person managing your campaigns, not an algorithm. Your account manager understands your business, your goals, and works daily to maximize your results.",              tag: "Core Feature",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AP5BwcOCEdbUvGXGzmfDl4faxC/professional-headshot-of-team-member-in--1772481632698-b8cddcbc.png?_wi=2",              imageAlt: "Account management"

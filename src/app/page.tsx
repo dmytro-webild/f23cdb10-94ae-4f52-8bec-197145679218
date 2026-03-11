@@ -142,19 +142,19 @@ export default function HomePage() {
           tagAnimation="slide-up"
           plans={[
             {
-              id: "foundation",              badge: "Foundation",              price: "$2,000",              subtitle: "Perfect for businesses starting their digital lead generation journey",              features: [
-                "Qualified leads delivered monthly",                "Weekly progress reporting",                "Basic targeting setup",                "Email support",                "Monthly strategy review"
+              id: "foundation",              badge: "Foundation",              price: "$2,000/mo",              subtitle: "Perfect for single-location businesses",              features: [
+                "GBP optimization",                "Local citation building",                "Basic SEO setup",                "Monthly progress reporting",                "Email support"
               ]
             },
             {
               id: "growth",              badge: "Growth",              badgeIcon: Sparkles,
-              price: "$3,500",              subtitle: "Most Popular - Ideal for growing service businesses ready to scale",              features: [
-                "Consistent qualified leads monthly",                "Weekly progress reporting",                "Advanced targeting",                "Dedicated account manager",                "Monthly strategy calls",                "Detailed metrics dashboard",                "Campaign optimization"
+              price: "$3,500/mo",              subtitle: "Most Popular - For businesses ready to dominate their local market",              features: [
+                "Everything in Foundation",                "Full 22-point marketing system",                "Strategic content production",                "Weekly strategy calls",                "Dedicated account manager",                "Landing page optimization"
               ]
             },
             {
-              id: "scale",              badge: "Scale",              price: "$5,000",              subtitle: "Maximum lead volume and priority support for established businesses",              features: [
-                "Maximum qualified leads monthly",                "Weekly progress reporting",                "Advanced + custom targeting",                "Dedicated account manager + specialist",                "Bi-weekly strategy calls",                "Detailed metrics dashboard",                "Advanced campaign optimization",                "Priority support",                "Quarterly business reviews"
+              id: "scale",              badge: "Scale",              price: "$5,000/mo",              subtitle: "For businesses ready to own their market across multiple locations",              features: [
+                "Everything in Growth",                "Multi-location SEO",                "Advanced content flywheel",                "Bi-weekly strategy calls",                "Priority support",                "Paid ads management"
               ]
             }
           ]}

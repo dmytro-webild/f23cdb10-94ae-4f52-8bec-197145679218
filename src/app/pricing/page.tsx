@@ -4,9 +4,10 @@ import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import NavbarStyleApple from "@/components/navbar/NavbarStyleApple/NavbarStyleApple";
 import PricingCardOne from "@/components/sections/pricing/PricingCardOne";
 import FeatureCardMedia from "@/components/sections/feature/FeatureCardMedia";
+import FaqBase from "@/components/sections/faq/FaqBase";
 import ContactCTA from "@/components/sections/contact/ContactCTA";
 import FooterLogoReveal from "@/components/sections/footer/FooterLogoReveal";
-import { Zap, Rocket, Sparkles, Crown } from "lucide-react";
+import { Zap, Sparkles } from "lucide-react";
 
 export default function PricingPage() {
   const navItems = [
@@ -41,7 +42,7 @@ export default function PricingPage() {
         <PricingCardOne
           title="Simple, Transparent Investment"
           description="Monthly retainers. No long-term contracts. We earn your business every month."
-          tag="Investment Tiers"
+          tag="Simple Pricing"
           tagAnimation="slide-up"
           plans={[
             {
@@ -64,7 +65,7 @@ export default function PricingPage() {
           animationType="slide-up"
           textboxLayout="default"
           useInvertedBackground={false}
-          buttons={[{ text: "Get Started", href: "/contact" }]}
+          buttons={[{ text: "Book a Call", href: "/contact" }]}
           buttonAnimation="slide-up"
         />
       </div>
@@ -87,6 +88,44 @@ export default function PricingPage() {
           animationType="slide-up"
           textboxLayout="default"
           useInvertedBackground={true}
+        />
+      </div>
+
+      <div id="faq" data-section="faq">
+        <FaqBase
+          title="Frequently Asked Questions"
+          description="Everything you need to know about Navo Lab and our lead generation services"
+          tag="FAQ"
+          tagAnimation="slide-up"
+          faqs={[
+            {
+              id: "faq-1",              title: "What is Navo Lab?",              content: "Navo Lab is a digital marketing growth engine specializing in lead generation and SEO for local service businesses. We help HVAC, plumbing, electrical, roofing, and other service companies generate consistent, qualified leads through proven digital marketing strategies and dedicated account management."
+            },
+            {
+              id: "faq-2",              title: "How does Navo Lab generate leads?",              content: "We use a comprehensive 22-point digital marketing system that includes local SEO optimization, strategic content creation, Google Business Profile management, local citation building, and targeted digital outreach. Our approach focuses on reaching high-intent prospects actively searching for your services in your service area."
+            },
+            {
+              id: "faq-3",              title: "What service industries do you work with?",              content: "We specialize in lead generation for service businesses including HVAC, plumbing, electrical, roofing, construction, and similar trades. We have deep expertise in understanding the sales cycles, customer behavior, and marketing challenges specific to local service companies."
+            },
+            {
+              id: "faq-4",              title: "Are there long-term contracts?",              content: "No. We offer flexible month-to-month retainers with no long-term contracts required. We believe in earning your business every single month through consistent results and dedicated service."
+            },
+            {
+              id: "faq-5",              title: "How do I know what results I'm getting?",              content: "You receive detailed monthly reports showing leads delivered, conversion metrics, cost per lead, and ROI. We believe in complete transparency—you'll always know exactly what you're paying for and what results you're achieving."
+            },
+            {
+              id: "faq-6",              title: "What makes Navo Lab different?",              content: "We combine deep industry expertise with proven marketing systems and dedicated account management. We focus on quality leads, not vanity metrics. Your success is our success, and we work daily to optimize your lead flow and results."
+            },
+            {
+              id: "faq-7",              title: "How long before I see results?",              content: "Most clients begin seeing qualified leads within the first 30-60 days of implementation. However, our approach is designed for long-term sustainable growth. The longer you're with us, the stronger your lead flow becomes as SEO rankings improve and your digital presence compounds."
+            },
+            {
+              id: "faq-8",              title: "What's included in each pricing tier?",              content: "All tiers include our full digital marketing platform and dedicated support. Foundation includes essential SEO setup and monthly reporting. Growth adds our complete 22-point system and weekly strategy calls. Scale provides multi-location capabilities and bi-weekly optimization sessions."
+            }
+          ]}
+          textboxLayout="default"
+          useInvertedBackground={false}
+          faqsAnimation="slide-up"
         />
       </div>
 

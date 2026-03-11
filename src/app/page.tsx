@@ -174,10 +174,10 @@ export default function HomePage() {
               title: "HB Design & Engineering",              description: "Structural engineering firm centralized their marketing through Navo Lab, generating a high six-figure project opportunity through improved Google visibility. The strategic optimization resulted in over 40x return on their monthly investment in the first quarter alone.",              icon: Briefcase,
               mediaItems: [
                 {
-                  imageSrc: "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 300'%3E%3Crect fill='%23f0f0f0' width='400' height='300'/%3E%3Ctext x='200' y='150' font-size='24' fill='%23999' text-anchor='middle' dominant-baseline='middle'%3EEngineering Success%3C/text%3E%3C/svg%3E",                  imageAlt: "Engineering project success"
+                  imageSrc: "data:image/svg+xml,%3Csvg xmlns=?_wi=1'http://www.w3.org/2000/svg' viewBox='0 0 400 300'%3E%3Crect fill='%23f0f0f0' width='400' height='300'/%3E%3Ctext x='200' y='150' font-size='24' fill='%23999' text-anchor='middle' dominant-baseline='middle'%3EEngineering Success%3C/text%3E%3C/svg%3E",                  imageAlt: "Engineering project success"
                 },
                 {
-                  imageSrc: "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 300'%3E%3Crect fill='%23f0f0f0' width='400' height='300'/%3E%3Ctext x='200' y='150' font-size='24' fill='%23999' text-anchor='middle' dominant-baseline='middle'%3E40x ROI Growth%3C/text%3E%3C/svg%3E",                  imageAlt: "40x return on investment"
+                  imageSrc: "data:image/svg+xml,%3Csvg xmlns=?_wi=2'http://www.w3.org/2000/svg' viewBox='0 0 400 300'%3E%3Crect fill='%23f0f0f0' width='400' height='300'/%3E%3Ctext x='200' y='150' font-size='24' fill='%23999' text-anchor='middle' dominant-baseline='middle'%3E40x ROI Growth%3C/text%3E%3C/svg%3E",                  imageAlt: "40x return on investment"
                 }
               ]
             },
@@ -185,10 +185,10 @@ export default function HomePage() {
               title: "The Service Pros",              description: "Through strategic educational video content and targeted distribution, The Service Pros achieved 50,000 social media views in their first month—all with zero ad spend. Their organic reach strategy proved that quality content combined with smart positioning drives real engagement and qualified leads.",              icon: BarChart3,
               mediaItems: [
                 {
-                  imageSrc: "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 300'%3E%3Crect fill='%23f0f0f0' width='400' height='300'/%3E%3Ctext x='200' y='150' font-size='24' fill='%23999' text-anchor='middle' dominant-baseline='middle'%3E50K Social Views%3C/text%3E%3C/svg%3E",                  imageAlt: "50000 social media views"
+                  imageSrc: "data:image/svg+xml,%3Csvg xmlns=?_wi=3'http://www.w3.org/2000/svg' viewBox='0 0 400 300'%3E%3Crect fill='%23f0f0f0' width='400' height='300'/%3E%3Ctext x='200' y='150' font-size='24' fill='%23999' text-anchor='middle' dominant-baseline='middle'%3E50K Social Views%3C/text%3E%3C/svg%3E",                  imageAlt: "50000 social media views"
                 },
                 {
-                  imageSrc: "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 300'%3E%3Crect fill='%23f0f0f0' width='400' height='300'/%3E%3Ctext x='200' y='150' font-size='24' fill='%23999' text-anchor='middle' dominant-baseline='middle'%3EZero Ad Spend%3C/text%3E%3C/svg%3E",                  imageAlt: "Zero advertising cost"
+                  imageSrc: "data:image/svg+xml,%3Csvg xmlns=?_wi=4'http://www.w3.org/2000/svg' viewBox='0 0 400 300'%3E%3Crect fill='%23f0f0f0' width='400' height='300'/%3E%3Ctext x='200' y='150' font-size='24' fill='%23999' text-anchor='middle' dominant-baseline='middle'%3EZero Ad Spend%3C/text%3E%3C/svg%3E",                  imageAlt: "Zero advertising cost"
                 }
               ]
             }

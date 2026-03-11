@@ -6,10 +6,10 @@ import HeroSplit from "@/components/sections/hero/HeroSplit";
 import FeatureCardMedia from "@/components/sections/feature/FeatureCardMedia";
 import SocialProofOne from "@/components/sections/socialProof/SocialProofOne";
 import PricingCardOne from "@/components/sections/pricing/PricingCardOne";
-import TestimonialCardTwelve from "@/components/sections/testimonial/TestimonialCardTwelve";
+import FeatureCardTwentyFive from "@/components/sections/feature/FeatureCardTwentyFive";
 import ContactCTA from "@/components/sections/contact/ContactCTA";
 import FooterLogoReveal from "@/components/sections/footer/FooterLogoReveal";
-import { Zap, TrendingUp, Phone, Calendar, Users, Heart, Rocket, Sparkles, Crown } from "lucide-react";
+import { Zap, TrendingUp, Phone, Calendar, Users, Heart, Rocket, Sparkles, Crown, Briefcase, BarChart3, Target } from "lucide-react";
 
 export default function HomePage() {
   const navItems = [
@@ -169,12 +169,48 @@ export default function HomePage() {
         />
       </div>
 
+      <div id="testimonials" data-section="testimonials">
+        <FeatureCardTwentyFive
+          title="Real Businesses. Real Results."
+          description="See how service businesses are generating qualified leads and growing their revenue with Navo Lab's proven approach"
+          tag="Case Studies"
+          tagAnimation="slide-up"
+          features={[
+            {
+              title: "HB Design & Engineering",              description: "Structural engineering firm centralized their marketing through Navo Lab, generating a high six-figure project opportunity through improved Google visibility. The strategic optimization resulted in over 40x return on their monthly investment in the first quarter alone.",              icon: Briefcase,
+              mediaItems: [
+                {
+                  imageSrc: "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 300'%3E%3Crect fill='%23f0f0f0' width='400' height='300'/%3E%3Ctext x='200' y='150' font-size='24' fill='%23999' text-anchor='middle' dominant-baseline='middle'%3EEngineering Success%3C/text%3E%3C/svg%3E",                  imageAlt: "Engineering project success"
+                },
+                {
+                  imageSrc: "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 300'%3E%3Crect fill='%23f0f0f0' width='400' height='300'/%3E%3Ctext x='200' y='150' font-size='24' fill='%23999' text-anchor='middle' dominant-baseline='middle'%3E40x ROI Growth%3C/text%3E%3C/svg%3E",                  imageAlt: "40x return on investment"
+                }
+              ]
+            },
+            {
+              title: "The Service Pros",              description: "Through strategic educational video content and targeted distribution, The Service Pros achieved 50,000 social media views in their first month—all with zero ad spend. Their organic reach strategy proved that quality content combined with smart positioning drives real engagement and qualified leads.",              icon: BarChart3,
+              mediaItems: [
+                {
+                  imageSrc: "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 300'%3E%3Crect fill='%23f0f0f0' width='400' height='300'/%3E%3Ctext x='200' y='150' font-size='24' fill='%23999' text-anchor='middle' dominant-baseline='middle'%3E50K Social Views%3C/text%3E%3C/svg%3E",                  imageAlt: "50000 social media views"
+                },
+                {
+                  imageSrc: "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 300'%3E%3Crect fill='%23f0f0f0' width='400' height='300'/%3E%3Ctext x='200' y='150' font-size='24' fill='%23999' text-anchor='middle' dominant-baseline='middle'%3EZero Ad Spend%3C/text%3E%3C/svg%3E",                  imageAlt: "Zero advertising cost"
+                }
+              ]
+            }
+          ]}
+          animationType="slide-up"
+          textboxLayout="default"
+          useInvertedBackground={true}
+        />
+      </div>
+
       <div id="cta" data-section="cta">
         <ContactCTA
           tag="Ready to Grow"
           tagIcon={Zap}
           tagAnimation="slide-up"
-          title="Ready to Ask Your Phone Ringing?"
+          title="Ready to Make Your Phone Ring?"
           description="Take the next step toward predictable, qualified leads. Let's discuss how Navo Lab can transform your service business with consistent monthly lead flow."
           buttons={[
             { text: "Book a Call", href: "https://calendly.com" },
@@ -183,36 +219,6 @@ export default function HomePage() {
           buttonAnimation="slide-up"
           background={{ variant: "radial-gradient" }}
           useInvertedBackground={false}
-        />
-      </div>
-
-      <div id="testimonials" data-section="testimonials">
-        <TestimonialCardTwelve
-          testimonials={[
-            {
-              id: "1",              name: "Marcus Johnson",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AP5BwcOCEdbUvGXGzmfDl4faxC/professional-headshot-of-satisfied-servi-1772481632884-8d16c835.png",              imageAlt: "Marcus Johnson"
-            },
-            {
-              id: "2",              name: "Sarah Chen",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AP5BwcOCEdbUvGXGzmfDl4faxC/professional-headshot-of-smiling-service-1772481632622-3dc24efc.png",              imageAlt: "Sarah Chen"
-            },
-            {
-              id: "3",              name: "David Rodriguez",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AP5BwcOCEdbUvGXGzmfDl4faxC/professional-headshot-of-business-owner--1772481633083-4ece2c48.png",              imageAlt: "David Rodriguez"
-            },
-            {
-              id: "4",              name: "Jennifer Blake",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AP5BwcOCEdbUvGXGzmfDl4faxC/professional-headshot-of-marketing-manag-1772481632791-b154b4d6.png",              imageAlt: "Jennifer Blake"
-            },
-            {
-              id: "5",              name: "Tom Wilson",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AP5BwcOCEdbUvGXGzmfDl4faxC/professional-headshot-of-service-busines-1772481632664-b5b5ddd3.png",              imageAlt: "Tom Wilson"
-            },
-            {
-              id: "6",              name: "Amanda Roberts",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AP5BwcOCEdbUvGXGzmfDl4faxC/professional-headshot-of-business-profes-1772481632529-643b0c2e.png",              imageAlt: "Amanda Roberts"
-            }
-          ]}
-          cardTitle="Service businesses trust Navo Lab to deliver consistent, qualified leads every single month"
-          cardTag="Customer Success"
-          cardTagIcon={Heart}
-          cardAnimation="slide-up"
-          useInvertedBackground={true}
         />
       </div>
 

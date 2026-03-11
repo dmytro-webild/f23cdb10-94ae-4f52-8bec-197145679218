@@ -42,8 +42,8 @@ export default function HomePage() {
 
       <div id="hero" data-section="hero">
         <HeroSplit
-          title="We make your phone ring"
-          description="Navo Lab generates qualified leads for service businesses using AI-powered targeting and dedicated strategy. See your digital opportunities free."
+          title="Transform Your Service Business with Predictable Lead Flow"
+          description="Navo Lab delivers qualified, phone-ready leads for HVAC, plumbing, electrical, roofing, and construction companies using AI-powered targeting and proven strategies. Get your free digital audit today."
           tag="AI-Powered Lead Generation"
           tagIcon={Zap}
           tagAnimation="slide-up"
@@ -63,22 +63,22 @@ export default function HomePage() {
 
       <div id="how-it-works" data-section="how-it-works">
         <FeatureCardMedia
-          title="How It Works"
-          description="Our proven process demystifies AI-powered lead generation into clear, actionable steps"
+          title="Our Proven 4-Step Process"
+          description="We turn your lead generation from unpredictable to systematic with a process designed specifically for service businesses"
           tag="Process"
           tagAnimation="slide-up"
           features={[
             {
-              id: "step-1",              title: "Digital Audit",              description: "We analyze your current marketing presence, identify digital opportunities, and provide transparent recommendations for lead generation improvement.",              tag: "Step 1"
+              id: "step-1",              title: "Comprehensive Digital Audit",              description: "We analyze your current marketing presence, identify hidden opportunities, and provide a detailed roadmap for improvement. This free audit alone reveals what's working and what's costing you leads.",              tag: "Step 1"
             },
             {
-              id: "step-2",              title: "AI Targeting Setup",              description: "Our AI-powered system identifies and targets your ideal customers with precision, focusing on high-intent prospects ready to book appointments.",              tag: "Step 2"
+              id: "step-2",              title: "AI-Powered Targeting Strategy",              description: "Our proprietary algorithms identify and reach your ideal customers at exactly the right moment. We focus on high-intent prospects ready to book—not random clicks.",              tag: "Step 2"
             },
             {
-              id: "step-3",              title: "Dedicated Support",              description: "You get a dedicated strategy team providing monthly strategy calls, weekly progress reporting, and detailed metrics to ensure success.",              tag: "Step 3"
+              id: "step-3",              title: "Dedicated Account Management",              description: "You get a dedicated strategy team managing your campaigns daily. Monthly calls, weekly reporting, and real-time optimization ensures nothing falls through the cracks.",              tag: "Step 3"
             },
             {
-              id: "step-4",              title: "Qualified Leads",              description: "Receive consistent, phone-ready leads delivered through your preferred channel. Our focus: your phone ringing with decision-makers.",              tag: "Step 4"
+              id: "step-4",              title: "Phone-Ready Qualified Leads",              description: "Receive consistent, qualified leads delivered to your phone and email. These are decision-makers ready to book appointments—not just inquiries or tire-kickers.",              tag: "Step 4"
             }
           ]}
           animationType="slide-up"
@@ -89,26 +89,26 @@ export default function HomePage() {
 
       <div id="features" data-section="features">
         <FeatureCardMedia
-          title="Why Service Businesses Choose Navo Lab"
-          description="Built specifically for HVAC, plumbing, electrical, roofing, construction, and more"
+          title="Why Service Businesses Trust Navo Lab"
+          description="Built specifically for HVAC, plumbing, electrical, roofing, construction, and service companies. We understand your business because we've worked in it."
           features={[
             {
-              id: "feature-1",              title: "Transparent Reporting",              description: "Monthly detailed metrics showing leads generated, conversion rates, cost per lead, and ROI. No vanity metrics—only what matters: phone calls and booked appointments.",              tag: "Transparency",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AP5BwcOCEdbUvGXGzmfDl4faxC/digital-audit-report-or-analytics-dashbo-1772481636177-fcab0e9b.png?_wi=2",              imageAlt: "Transparent reporting dashboard"
+              id: "feature-1",              title: "Transparent Monthly Reporting",              description: "See exactly where every dollar goes and what it generates. We report leads delivered, appointment bookings, and actual ROI. No vanity metrics or misleading numbers—just the truth.",              tag: "Transparency",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AP5BwcOCEdbUvGXGzmfDl4faxC/digital-audit-report-or-analytics-dashbo-1772481636177-fcab0e9b.png?_wi=2",              imageAlt: "Transparent reporting dashboard"
             },
             {
-              id: "feature-2",              title: "Dedicated Account Management",              description: "Your own dedicated support team handles strategy, optimization, and reporting. Monthly calls to review performance and adjust campaigns for maximum results.",              tag: "Support",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AP5BwcOCEdbUvGXGzmfDl4faxC/professional-headshot-of-diverse-team-me-1772481633100-b1fe8b6c.png?_wi=1",              imageAlt: "Dedicated account manager"
+              id: "feature-2",              title: "Dedicated Account Manager",              description: "Your account manager understands your business, your goals, and your challenges. They're not just processing orders—they're strategizing to maximize your ROI every single month.",              tag: "Support",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AP5BwcOCEdbUvGXGzmfDl4faxC/professional-headshot-of-diverse-team-me-1772481633100-b1fe8b6c.png?_wi=1",              imageAlt: "Dedicated account manager"
             },
             {
-              id: "feature-3",              title: "AI-Powered Targeting",              description: "Advanced machine learning identifies and targets your ideal customers at the exact moment they're searching for your services. Precision beats volume every time.",              tag: "Technology",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AP5BwcOCEdbUvGXGzmfDl4faxC/abstract-futuristic-ai-technology-visual-1772481632775-04d1d2d8.png?_wi=2",              imageAlt: "AI targeting technology"
+              id: "feature-3",              title: "AI-Powered Precision Targeting",              description: "Advanced machine learning identifies prospects searching for your services right now. We reach them with the right message at the right time, maximizing conversion potential.",              tag: "Technology",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AP5BwcOCEdbUvGXGzmfDl4faxC/abstract-futuristic-ai-technology-visual-1772481632775-04d1d2d8.png?_wi=2",              imageAlt: "AI targeting technology"
             },
             {
-              id: "feature-4",              title: "Multi-Vertical Expertise",              description: "Deep experience across HVAC, plumbing, electrical, roofing, construction, dentistry, gyms, and architecture. We understand your business unique challenges.",              tag: "Expertise",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AP5BwcOCEdbUvGXGzmfDl4faxC/confident-service-business-owner-hvac-pl-1772481633162-358c5800.png?_wi=1",              imageAlt: "Service business expertise"
+              id: "feature-4",              title: "Multi-Vertical Industry Expertise",              description: "We've successfully generated leads for HVAC, plumbing, electrical, roofing, construction, and other service verticals. We know your industry's seasonality, pricing cycles, and booking patterns.",              tag: "Expertise",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AP5BwcOCEdbUvGXGzmfDl4faxC/confident-service-business-owner-hvac-pl-1772481633162-358c5800.png?_wi=1",              imageAlt: "Service business expertise"
             },
             {
-              id: "feature-5",              title: "Predictable Lead Flow",              description: "Consistent, quality leads delivered month after month. Scale your business confidently with a reliable partner managing your digital growth.",              tag: "Growth",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AP5BwcOCEdbUvGXGzmfDl4faxC/close-up-of-smartphone-showing-incoming--1772481632952-a4ba83a2.png?_wi=2",              imageAlt: "Predictable lead flow"
+              id: "feature-5",              title: "Predictable Monthly Lead Pipeline",              description: "Stop guessing about next month's leads. With Navo Lab, you plan budgets around consistent, reliable lead flow. Scale your team with confidence knowing leads will arrive.",              tag: "Growth",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AP5BwcOCEdbUvGXGzmfDl4faxC/close-up-of-smartphone-showing-incoming--1772481632952-a4ba83a2.png?_wi=2",              imageAlt: "Predictable lead flow"
             },
             {
-              id: "feature-6",              title: "Free Digital Audit",              description: "Start with a comprehensive, no-obligation audit of your current marketing. Discover real opportunities and get actionable recommendations with no risk.",              tag: "Offer",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AP5BwcOCEdbUvGXGzmfDl4faxC/call-to-action-visual-for-free-digital-a-1772481633412-e1dd491a.png?_wi=1",              imageAlt: "Free digital audit offer"
+              id: "feature-6",              title: "Free Digital Audit (No Credit Card Required)",              description: "Start risk-free. We'll conduct a comprehensive audit of your current marketing, identify opportunities you're missing, and show you exactly what's possible.",              tag: "Offer",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AP5BwcOCEdbUvGXGzmfDl4faxC/call-to-action-visual-for-free-digital-a-1772481633412-e1dd491a.png?_wi=1",              imageAlt: "Free digital audit offer"
             }
           ]}
           animationType="slide-up"
@@ -119,8 +119,8 @@ export default function HomePage() {
 
       <div id="social-proof" data-section="social-proof">
         <SocialProofOne
-          title="Trusted by Service Businesses Across America"
-          description="Leading HVAC, plumbing, electrical, roofing, and construction companies rely on Navo Lab for predictable lead flow"
+          title="Trusted by 200+ Service Businesses Nationwide"
+          description="From single-location shops to multi-state operations, service businesses across America rely on Navo Lab for consistent, predictable lead flow"
           tag="Our Partners"
           tagAnimation="slide-up"
           textboxLayout="default"
@@ -136,27 +136,27 @@ export default function HomePage() {
 
       <div id="pricing" data-section="pricing">
         <PricingCardOne
-          title="Simple, Transparent Pricing"
-          description="Choose the support tier that fits your business. All plans include dedicated support and detailed monthly reporting."
+          title="Investment Plans That Scale with Your Business"
+          description="Transparent pricing with zero hidden fees. Choose your support tier and scale as you grow. All plans include dedicated support and detailed monthly reporting."
           tag="Support Tiers"
           tagAnimation="slide-up"
           plans={[
             {
               id: "starter",              badge: "Best for Startups",              badgeIcon: Rocket,
               price: "$2,500",              subtitle: "Perfect for businesses just starting their digital lead generation journey",              features: [
-                "50-100 qualified leads/month",                "Weekly progress reporting",                "Basic AI targeting",                "Email support",                "Monthly strategy review"
+                "50-100 qualified leads per month",                "Weekly progress reporting",                "Basic AI targeting setup",                "Email support",                "Monthly strategy review call"
               ]
             },
             {
               id: "professional",              badge: "Most Popular",              badgeIcon: Sparkles,
-              price: "$5,000",              subtitle: "Ideal for growing service businesses ready to scale",              features: [
-                "100-200 qualified leads/month",                "Weekly progress reporting",                "Advanced AI targeting",                "Dedicated account manager",                "Monthly strategy calls",                "Detailed monthly metrics",                "Campaign optimization"
+              price: "$5,000",              subtitle: "Ideal for growing service businesses ready to scale predictably",              features: [
+                "100-200 qualified leads per month",                "Weekly progress reporting",                "Advanced AI targeting",                "Dedicated account manager",                "Monthly strategy calls",                "Detailed monthly metrics dashboard",                "Campaign optimization"
               ]
             },
             {
               id: "enterprise",              badge: "Premium Support",              badgeIcon: Crown,
-              price: "$10,000",              subtitle: "For established businesses demanding maximum results",              features: [
-                "200-400 qualified leads/month",                "Weekly progress reporting",                "Advanced AI + custom targeting",                "Dedicated account manager + specialist",                "Bi-weekly strategy calls",                "Detailed monthly metrics",                "Advanced campaign optimization",                "Priority support",                "Quarterly business reviews"
+              price: "$10,000",              subtitle: "For established businesses demanding maximum results and priority support",              features: [
+                "200-400 qualified leads per month",                "Weekly progress reporting",                "Advanced AI + custom targeting",                "Dedicated account manager + specialist",                "Bi-weekly strategy calls",                "Detailed monthly metrics dashboard",                "Advanced campaign optimization",                "Priority support (24-48 hour response)",                "Quarterly business reviews"
               ]
             }
           ]}
@@ -193,7 +193,7 @@ export default function HomePage() {
               id: "6",              name: "Amanda Roberts",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AP5BwcOCEdbUvGXGzmfDl4faxC/professional-headshot-of-business-profes-1772481632529-643b0c2e.png",              imageAlt: "Amanda Roberts"
             }
           ]}
-          cardTitle="Service businesses trust Navo Lab to deliver consistent, qualified leads every month"
+          cardTitle="Service businesses trust Navo Lab to deliver consistent, qualified leads every single month"
           cardTag="Customer Success"
           cardTagIcon={Heart}
           cardAnimation="slide-up"
@@ -207,7 +207,7 @@ export default function HomePage() {
           tagIcon={Zap}
           tagAnimation="slide-up"
           title="Get Your Free Digital Audit Today"
-          description="Discover your digital opportunities and receive personalized recommendations from our AI-powered platform. No credit card required."
+          description="Discover hidden opportunities in your current marketing. Our team will analyze your business, identify what's working and what's not, and deliver actionable recommendations—all completely free with no obligations."
           buttons={[
             { text: "Request Free Audit", href: "/contact" },
             { text: "Schedule a Call", href: "https://calendly.com" }

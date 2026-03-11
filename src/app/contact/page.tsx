@@ -43,7 +43,7 @@ export default function ContactPage() {
           tagIcon={Zap}
           tagAnimation="slide-up"
           title="Request Your Free Digital Audit"
-          description="Let's discuss your lead generation goals and discover how Navo Lab can transform your service business. Our team will contact you within 24 hours to schedule your personalized audit and strategy consultation."
+          description="Let's discover what's possible for your business. We'll analyze your current marketing, identify the opportunities you're missing, and show you exactly how Navo Lab can transform your lead flow. Our team will contact you within 24 hours to schedule your personalized consultation."
           buttons={[
             { text: "Schedule Consultation", href: "https://calendly.com" },
             { text: "Send Message", href: "mailto:hello@navo-lab.com" }
@@ -56,17 +56,17 @@ export default function ContactPage() {
 
       <div id="contact-options" data-section="contact-options">
         <FeatureCardMedia
-          title="Multiple Ways to Connect"
-          description="Choose the contact method that works best for you"
+          title="Connect With Us Today"
+          description="Choose the contact method that works best for you. We respond quickly because your time matters."
           features={[
             {
-              id: "contact-1",              title: "Schedule a Call",              description: "Book a time that works for your schedule. Our team will walk you through the digital audit process and answer all your questions about lead generation for your service business.",              tag: "Calendar",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AP5BwcOCEdbUvGXGzmfDl4faxC/professional-headshot-of-team-member-wit-1772481632583-cb1f6acd.png?_wi=2",              imageAlt: "Schedule a call"
+              id: "contact-1",              title: "Schedule a Strategy Call",              description: "Book a time that fits your schedule. Our team will walk you through your digital audit, discuss your lead generation goals, and answer all your questions about how Navo Lab can transform your business.",              tag: "Calendar",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AP5BwcOCEdbUvGXGzmfDl4faxC/professional-headshot-of-team-member-wit-1772481632583-cb1f6acd.png?_wi=2",              imageAlt: "Schedule a call"
             },
             {
-              id: "contact-2",              title: "Email Us",              description: "Send us a detailed message about your business and lead generation goals. We'll respond with specific insights and next steps tailored to your situation.",              tag: "Email",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AP5BwcOCEdbUvGXGzmfDl4faxC/professional-headshot-of-diverse-team-me-1772481633100-b1fe8b6c.png?_wi=2",              imageAlt: "Email support"
+              id: "contact-2",              title: "Email Us Your Questions",              description: "Send us a detailed message about your service business and lead generation goals. We'll respond with specific insights, recommendations, and next steps tailored directly to your situation.",              tag: "Email",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AP5BwcOCEdbUvGXGzmfDl4faxC/professional-headshot-of-diverse-team-me-1772481633100-b1fe8b6c.png?_wi=2",              imageAlt: "Email support"
             },
             {
-              id: "contact-3",              title: "Request Audit",              description: "Start with a comprehensive free digital audit. We'll analyze your current marketing presence, identify opportunities, and provide actionable recommendations—no obligations attached.",              tag: "Audit",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AP5BwcOCEdbUvGXGzmfDl4faxC/call-to-action-visual-for-free-digital-a-1772481633412-e1dd491a.png?_wi=2",              imageAlt: "Free audit request"
+              id: "contact-3",              title: "Request Your Free Audit",              description: "Start with our comprehensive free digital audit. We'll analyze your current marketing presence, identify opportunities you're missing, provide actionable recommendations, and show you what's possible—no obligations, no credit card required.",              tag: "Audit",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AP5BwcOCEdbUvGXGzmfDl4faxC/call-to-action-visual-for-free-digital-a-1772481633412-e1dd491a.png?_wi=2",              imageAlt: "Free audit request"
             }
           ]}
           animationType="slide-up"
@@ -77,8 +77,8 @@ export default function ContactPage() {
 
       <div id="contact-social-proof" data-section="contact-social-proof">
         <SocialProofOne
-          title="Trusted by Service Businesses"
-          description="Join hundreds of service businesses already generating predictable leads with Navo Lab"
+          title="Join Hundreds of Service Businesses Getting Results"
+          description="Leading HVAC, plumbing, electrical, roofing, and construction companies trust Navo Lab to deliver predictable, qualified leads every month"
           tag="Partners"
           tagAnimation="slide-up"
           textboxLayout="default"

@@ -39,27 +39,27 @@ export default function PricingPage() {
 
       <div id="pricing-plans" data-section="pricing-plans">
         <PricingCardOne
-          title="Flexible Plans for Every Service Business"
-          description="Transparent pricing with no hidden fees. Scale as you grow. All plans include dedicated support and detailed monthly reporting."
+          title="Choose the Plan That Fits Your Business"
+          description="Flexible, transparent pricing with zero hidden fees. Scale up as you grow. Every plan includes dedicated support, detailed reporting, and our proven lead generation process."
           tag="Investment Tiers"
           tagAnimation="slide-up"
           plans={[
             {
               id: "starter",              badge: "Best for Startups",              badgeIcon: Rocket,
               price: "$2,500",              subtitle: "Perfect for businesses just starting their digital lead generation journey",              features: [
-                "50-100 qualified leads/month",                "Weekly progress reporting",                "Basic AI targeting",                "Email support",                "Monthly strategy review"
+                "50-100 qualified leads per month",                "Weekly progress reporting",                "Basic AI targeting setup",                "Email support",                "Monthly strategy review call"
               ]
             },
             {
               id: "professional",              badge: "Most Popular",              badgeIcon: Sparkles,
-              price: "$5,000",              subtitle: "Ideal for growing service businesses ready to scale",              features: [
-                "100-200 qualified leads/month",                "Weekly progress reporting",                "Advanced AI targeting",                "Dedicated account manager",                "Monthly strategy calls",                "Detailed monthly metrics",                "Campaign optimization"
+              price: "$5,000",              subtitle: "Ideal for growing service businesses ready to scale predictably",              features: [
+                "100-200 qualified leads per month",                "Weekly progress reporting",                "Advanced AI targeting",                "Dedicated account manager",                "Monthly strategy calls",                "Detailed monthly metrics dashboard",                "Campaign optimization"
               ]
             },
             {
               id: "enterprise",              badge: "Premium Support",              badgeIcon: Crown,
-              price: "$10,000",              subtitle: "For established businesses demanding maximum results",              features: [
-                "200-400 qualified leads/month",                "Weekly progress reporting",                "Advanced AI + custom targeting",                "Dedicated account manager + specialist",                "Bi-weekly strategy calls",                "Detailed monthly metrics",                "Advanced campaign optimization",                "Priority support",                "Quarterly business reviews"
+              price: "$10,000",              subtitle: "For established businesses demanding maximum results and priority support",              features: [
+                "200-400 qualified leads per month",                "Weekly progress reporting",                "Advanced AI + custom targeting",                "Dedicated account manager + specialist",                "Bi-weekly strategy calls",                "Detailed monthly metrics dashboard",                "Advanced campaign optimization",                "Priority support (24-48 hour response)",                "Quarterly business reviews"
               ]
             }
           ]}
@@ -73,17 +73,17 @@ export default function PricingPage() {
 
       <div id="pricing-details" data-section="pricing-details">
         <FeatureCardMedia
-          title="What's Included in Every Plan"
-          description="All tiers include comprehensive support and transparent reporting"
+          title="What Every Plan Includes"
+          description="From day one, you get access to our complete platform and dedicated support"
           features={[
             {
-              id: "included-1",              title: "AI-Powered Targeting",              description: "Our machine learning algorithms identify and target your ideal customers across multiple channels for maximum precision.",              tag: "Core Feature",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AP5BwcOCEdbUvGXGzmfDl4faxC/abstract-futuristic-ai-technology-visual-1772481632775-04d1d2d8.png?_wi=4",              imageAlt: "AI targeting technology"
+              id: "included-1",              title: "AI-Powered Lead Targeting",              description: "Our proprietary machine learning identifies and reaches high-intent prospects actively searching for your services. We focus on quality over quantity—every lead is pre-qualified.",              tag: "Core Feature",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AP5BwcOCEdbUvGXGzmfDl4faxC/abstract-futuristic-ai-technology-visual-1772481632775-04d1d2d8.png?_wi=4",              imageAlt: "AI targeting technology"
             },
             {
-              id: "included-2",              title: "Dedicated Account Management",              description: "Get a dedicated point of contact who understands your business goals and manages your campaigns daily for optimal performance.",              tag: "Core Feature",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AP5BwcOCEdbUvGXGzmfDl4faxC/professional-headshot-of-team-member-in--1772481632698-b8cddcbc.png?_wi=2",              imageAlt: "Account management"
+              id: "included-2",              title: "Dedicated Account Management",              description: "You get a real person managing your campaigns, not an algorithm. Your account manager understands your business, your goals, and works daily to maximize your results.",              tag: "Core Feature",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AP5BwcOCEdbUvGXGzmfDl4faxC/professional-headshot-of-team-member-in--1772481632698-b8cddcbc.png?_wi=2",              imageAlt: "Account management"
             },
             {
-              id: "included-3",              title: "Transparent Reporting",              description: "Receive detailed monthly reports showing exactly what you paid for, what leads you received, and your ROI. No vanity metrics.",              tag: "Core Feature",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AP5BwcOCEdbUvGXGzmfDl4faxC/digital-audit-report-or-analytics-dashbo-1772481636177-fcab0e9b.png?_wi=4",              imageAlt: "Transparent reporting"
+              id: "included-3",              title: "Transparent Monthly Reporting",              description: "Detailed reports showing leads delivered, conversion rates, cost per lead, and ROI. You'll always know exactly what you're paying for and what results you're getting.",              tag: "Core Feature",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AP5BwcOCEdbUvGXGzmfDl4faxC/digital-audit-report-or-analytics-dashbo-1772481636177-fcab0e9b.png?_wi=4",              imageAlt: "Transparent reporting"
             }
           ]}
           animationType="slide-up"
@@ -98,7 +98,7 @@ export default function PricingPage() {
           tagIcon={Zap}
           tagAnimation="slide-up"
           title="Ready to Scale Your Service Business?"
-          description="Start with a free digital audit to understand your opportunities. No credit card required. Our team will contact you within 24 hours."
+          description="Start with a free digital audit to understand your opportunities. We'll analyze your current marketing, identify what's working, and show you the real potential for your business. No credit card required."
           buttons={[
             { text: "Get Free Audit", href: "/contact" },
             { text: "Schedule Demo", href: "https://calendly.com" }

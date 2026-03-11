@@ -89,17 +89,20 @@ export default function HomePage() {
 
       <div id="features" data-section="features">
         <FeatureCardMedia
-          title="Why Service Businesses Choose Navo Lab"
-          description="Built specifically for HVAC, plumbing, electrical, roofing, construction, and service companies. We understand your business because we've worked in it."
+          title="Our Service Delivery Framework"
+          description="The complete systems and strategies we implement for every service business client"
           features={[
             {
-              id: "feature-1",              title: "Full-Stack Growth Engine",              description: "Other agencies do SEO or content. We run the full system — SEO, lead funnels, content, and distribution — integrated as one engine.",              tag: "Growth"
+              id: "feature-1",              title: "22-Point Marketing System",              description: "Our comprehensive digital infrastructure covering SEO optimization, local citation management, content distribution, lead funnel setup, and performance tracking. Every element works together to generate consistent, qualified leads for your service business.",              tag: "Core System"
             },
             {
-              id: "feature-2",              title: "Proven on Real Businesses",              description: "We built and tested our system on real companies before offering it to anyone else. Our results speak for themselves.",              tag: "Proven"
+              id: "feature-2",              title: "Strategic Content Package",              description: "Proven educational and promotional content developed for your specific service vertical. We create blog posts, video scripts, service guides, and case studies that position you as the expert and drive organic traffic to your business.",              tag: "Content Strategy"
             },
             {
-              id: "feature-3",              title: "No Vanity Metrics",              description: "We don't sell impressions or followers. We track leads, revenue, and ROI. If your phone isn't ringing more, we're not doing our job.",              tag: "Transparency"
+              id: "feature-3",              title: "Local SEO Domination",              description: "Complete local search optimization including Google Business Profile management, local citation building, review generation, and location-specific keyword targeting. We get you found when prospects search for your services in your service area.",              tag: "Local Visibility"
+            },
+            {
+              id: "feature-4",              title: "Content Flywheel",              description: "Our system that compounds results over time. Strategic content attracts prospects, builds authority, improves SEO rankings, and generates continuous qualified leads month after month. The longer you're with us, the stronger your lead flow becomes.",              tag: "Growth Engine"
             }
           ]}
           animationType="slide-up"
@@ -171,10 +174,10 @@ export default function HomePage() {
               title: "HB Design & Engineering",              description: "Structural engineering firm centralized their marketing through Navo Lab, generating a high six-figure project opportunity through improved Google visibility. The strategic optimization resulted in over 40x return on their monthly investment in the first quarter alone.",              icon: Briefcase,
               mediaItems: [
                 {
-                  imageSrc: "data:image/svg+xml,%3Csvg xmlns=?_wi=1'http://www.w3.org/2000/svg' viewBox='0 0 400 300'%3E%3Crect fill='%23f0f0f0' width='400' height='300'/%3E%3Ctext x='200' y='150' font-size='24' fill='%23999' text-anchor='middle' dominant-baseline='middle'%3EEngineering Success%3C/text%3E%3C/svg%3E",                  imageAlt: "Engineering project success"
+                  imageSrc: "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 300'%3E%3Crect fill='%23f0f0f0' width='400' height='300'/%3E%3Ctext x='200' y='150' font-size='24' fill='%23999' text-anchor='middle' dominant-baseline='middle'%3EEngineering Success%3C/text%3E%3C/svg%3E",                  imageAlt: "Engineering project success"
                 },
                 {
-                  imageSrc: "data:image/svg+xml,%3Csvg xmlns=?_wi=2'http://www.w3.org/2000/svg' viewBox='0 0 400 300'%3E%3Crect fill='%23f0f0f0' width='400' height='300'/%3E%3Ctext x='200' y='150' font-size='24' fill='%23999' text-anchor='middle' dominant-baseline='middle'%3E40x ROI Growth%3C/text%3E%3C/svg%3E",                  imageAlt: "40x return on investment"
+                  imageSrc: "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 300'%3E%3Crect fill='%23f0f0f0' width='400' height='300'/%3E%3Ctext x='200' y='150' font-size='24' fill='%23999' text-anchor='middle' dominant-baseline='middle'%3E40x ROI Growth%3C/text%3E%3C/svg%3E",                  imageAlt: "40x return on investment"
                 }
               ]
             },
@@ -182,10 +185,10 @@ export default function HomePage() {
               title: "The Service Pros",              description: "Through strategic educational video content and targeted distribution, The Service Pros achieved 50,000 social media views in their first month—all with zero ad spend. Their organic reach strategy proved that quality content combined with smart positioning drives real engagement and qualified leads.",              icon: BarChart3,
               mediaItems: [
                 {
-                  imageSrc: "data:image/svg+xml,%3Csvg xmlns=?_wi=3'http://www.w3.org/2000/svg' viewBox='0 0 400 300'%3E%3Crect fill='%23f0f0f0' width='400' height='300'/%3E%3Ctext x='200' y='150' font-size='24' fill='%23999' text-anchor='middle' dominant-baseline='middle'%3E50K Social Views%3C/text%3E%3C/svg%3E",                  imageAlt: "50000 social media views"
+                  imageSrc: "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 300'%3E%3Crect fill='%23f0f0f0' width='400' height='300'/%3E%3Ctext x='200' y='150' font-size='24' fill='%23999' text-anchor='middle' dominant-baseline='middle'%3E50K Social Views%3C/text%3E%3C/svg%3E",                  imageAlt: "50000 social media views"
                 },
                 {
-                  imageSrc: "data:image/svg+xml,%3Csvg xmlns=?_wi=4'http://www.w3.org/2000/svg' viewBox='0 0 400 300'%3E%3Crect fill='%23f0f0f0' width='400' height='300'/%3E%3Ctext x='200' y='150' font-size='24' fill='%23999' text-anchor='middle' dominant-baseline='middle'%3EZero Ad Spend%3C/text%3E%3C/svg%3E",                  imageAlt: "Zero advertising cost"
+                  imageSrc: "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 300'%3E%3Crect fill='%23f0f0f0' width='400' height='300'/%3E%3Ctext x='200' y='150' font-size='24' fill='%23999' text-anchor='middle' dominant-baseline='middle'%3EZero Ad Spend%3C/text%3E%3C/svg%3E",                  imageAlt: "Zero advertising cost"
                 }
               ]
             }

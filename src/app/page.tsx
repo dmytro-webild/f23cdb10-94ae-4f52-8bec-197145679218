@@ -14,10 +14,10 @@ import { Zap, TrendingUp, Phone, Calendar, Users, Heart, Rocket, Sparkles, Crown
 export default function HomePage() {
   const navItems = [
     { name: "How It Works", id: "how-it-works" },
-    { name: "Pricing", id: "pricing" },
+    { name: "Pricing", id: "/pricing" },
     { name: "Features", id: "features" },
     { name: "About Us", id: "/about-us" },
-    { name: "Contact", id: "contact" }
+    { name: "Contact", id: "/contact" }
   ];
 
   return (
@@ -113,8 +113,8 @@ export default function HomePage() {
 
       <div id="social-proof" data-section="social-proof">
         <SocialProofOne
-          title="Trusted by 200+ Service Businesses Nationwide"
-          description="From single-location shops to multi-state operations, service businesses across America rely on Navo Lab for consistent, predictable lead flow"
+          title="Trusted by Service Businesses in Florida"
+          description="From single-location shops to multi-state operations, service businesses across Florida rely on Navo Lab for consistent, predictable lead flow"
           tag="Our Partners"
           tagAnimation="slide-up"
           textboxLayout="default"
@@ -156,7 +156,7 @@ export default function HomePage() {
           textboxLayout="default"
           useInvertedBackground={false}
           buttons={[
-            { text: "Get Started", href: "/contact" },
+            { text: "Book a Call", href: "/contact" },
             { text: "Schedule Call", href: "https://calendly.com" }
           ]}
           buttonAnimation="slide-up"

@@ -7,7 +7,7 @@ import FeatureCardMedia from "@/components/sections/feature/FeatureCardMedia";
 import TextSplitAbout from "@/components/sections/about/TextSplitAbout";
 import ContactCTA from "@/components/sections/contact/ContactCTA";
 import FooterLogoReveal from "@/components/sections/footer/FooterLogoReveal";
-import { Zap, Lightbulb, Users, Target, TrendingUp, Rocket } from "lucide-react";
+import { Zap } from "lucide-react";
 
 export default function AboutPage() {
   const navItems = [
@@ -41,7 +41,7 @@ export default function AboutPage() {
       <div id="hero" data-section="hero">
         <HeroSplit
           title="About Navo Lab"
-          description="Founded by Karu Thompson, Navo Lab emerged from real-world experience testing and optimizing lead generation systems for service businesses. We built this company to solve the exact problems we faced: inconsistent lead quality, unclear ROI, and marketing agencies that didn't understand the service industry."
+          description="Founded by Karu Thompson in late 2024 in St. Petersburg, Florida, Navo Lab was built on a simple principle: testing and proving systems work in real service businesses before claiming they do. We don't use vanity metrics or theoretical frameworks. Every strategy we recommend comes from real-world application and measurable results."
           tag="Our Story"
           tagIcon={Zap}
           tagAnimation="slide-up"
@@ -59,9 +59,9 @@ export default function AboutPage() {
 
       <div id="founder-story" data-section="founder-story">
         <TextSplitAbout
-          title="From Testing to Results"
+          title="Built by Testing in Real Businesses"
           description={[
-            "Karu Thompson started experimenting with lead generation systems while running service business operations. Over years of direct testing and optimization, patterns emerged: certain strategies consistently generated qualified leads, while most industry approaches relied on vanity metrics and false promises.",            "Rather than join an agency pushing outdated tactics, Karu built Navo Lab to implement what actually worked. Every system we use today comes from real testing in real service businesses. We learned what questions matter, which channels deliver qualified prospects, and how to measure results that actually impact revenue.",            "Today, Navo Lab applies these tested methodologies to help service businesses generate consistent, predictable leads without wasting money on ineffective marketing."
+            "Karu Thompson founded Navo Lab after years of direct testing and optimization in actual service businesses. Rather than relying on industry assumptions or marketing theories, every system Navo Lab uses today has been validated through real business implementation. We saw what worked consistently and what failed. We measured results directly—not vanity metrics, but actual lead quality and business impact.",            "This hands-on approach revealed clear patterns: most agencies sell generic solutions and rely on inflated numbers. Service business owners deserve better. They need partners who understand their specific challenges, test strategies in their real market conditions, and report honest results.",            "Navo Lab was founded to deliver exactly that. We build and test systems on real businesses first. We prove they work. Then we scale them for other service companies facing the same lead generation challenges. Everything we do is grounded in direct business testing and measurable outcomes."
           ]}
           useInvertedBackground={false}
           buttons={[
@@ -74,19 +74,19 @@ export default function AboutPage() {
       <div id="our-approach" data-section="our-approach">
         <FeatureCardMedia
           title="Our Approach: Built on Testing, Not Theory"
-          description="Every strategy we recommend comes from direct business testing and proven results, not industry assumptions"
+          description="Every strategy we recommend comes from direct business testing and proven results"
           features={[
             {
-              id: "approach-1",              title: "Real Business Testing",              description: "We tested lead generation strategies directly in service businesses for years. Every tactic we implement has been validated through real-world results, not marketing theory. We know what works because we've seen it work repeatedly.",              tag: "Foundation"
+              id: "approach-1",              title: "Real Business Testing",              description: "We tested lead generation strategies directly in service businesses. Every tactic we implement has been validated through real-world results. We know what works because we've seen it work repeatedly in actual business environments.",              tag: "Foundation"
             },
             {
-              id: "approach-2",              title: "Service Industry Focus",              description: "HVAC, plumbing, electrical, roofing, construction—we understand your specific challenges. Sales cycles, customer behavior, competitive landscape, seasonal patterns. This isn't generic marketing. It's built for your industry.",              tag: "Expertise"
+              id: "approach-2",              title: "Service Industry Focus",              description: "We understand the service business landscape—sales cycles, customer behavior, competitive pressures, seasonal patterns. This knowledge comes from testing in real HVAC, plumbing, electrical, roofing, and construction businesses.",              tag: "Expertise"
             },
             {
-              id: "approach-3",              title: "Transparent, Measurable Results",              description: "No vanity metrics. We track leads delivered, conversion rates, cost per lead, and direct ROI. You'll know exactly what you're paying for and what results you're getting. Monthly reporting shows real numbers that impact your business.",              tag: "Accountability"
+              id: "approach-3",              title: "Transparent, Measurable Results",              description: "We track leads delivered, conversion rates, cost per lead, and direct ROI. No inflated numbers. No vanity metrics. You'll see exactly what you're paying for and what results you're getting each month.",              tag: "Accountability"
             },
             {
-              id: "approach-4",              title: "Continuous Optimization",              description: "We don't set and forget. Based on testing and real-time data, we continuously refine targeting, messaging, and channel strategy. Your lead quality improves month after month as we learn what works best for your specific business.",              tag: "Growth"
+              id: "approach-4",              title: "Continuous Optimization",              description: "We apply what we learned through testing to continuously refine your strategy. Based on real data and real performance, we improve targeting, messaging, and channel strategy. Your lead quality improves as we learn what works best for your specific business.",              tag: "Growth"
             }
           ]}
           animationType="slide-up"
@@ -101,13 +101,13 @@ export default function AboutPage() {
           description="We're committed to transparent, results-driven lead generation that transforms service businesses"
           features={[
             {
-              id: "mission-1",              title: "Transparency First",              description: "Every metric, every lead, every dollar spent is tracked and reported. Our clients know exactly where their investment goes and what it generates.",              tag: "Commitment"
+              id: "mission-1",              title: "Transparency First",              description: "Every metric, every lead, every dollar spent is tracked and reported. Our clients know exactly where their investment goes and what results it generates. We've seen what happens when agencies hide behind jargon and vanity metrics—we don't operate that way.",              tag: "Commitment"
             },
             {
-              id: "mission-2",              title: "Results-Driven Innovation",              description: "We continuously test and optimize our strategies based on real performance data. Your success drives our innovation. Better leads mean better results.",              tag: "Innovation"
+              id: "mission-2",              title: "Results-Driven Innovation",              description: "We continuously test and optimize based on real performance data. Your success drives our innovation. Better leads mean better results. When something isn't working, we change it. When something works, we scale it.",              tag: "Innovation"
             },
             {
-              id: "mission-3",              title: "Deep Industry Understanding",              description: "Our team has worked in and with HVAC, plumbing, electrical, and service businesses. We understand your challenges, timelines, and what quality leads look like in your market.",              tag: "Expertise"
+              id: "mission-3",              title: "Deep Industry Understanding",              description: "We've built and tested systems in service businesses. We understand your challenges, your sales timelines, what quality leads look like in your market, and how to measure actual business impact.",              tag: "Expertise"
             }
           ]}
           animationType="slide-up"

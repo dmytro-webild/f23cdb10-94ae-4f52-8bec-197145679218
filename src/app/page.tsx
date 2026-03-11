@@ -16,7 +16,7 @@ export default function HomePage() {
     { name: "How It Works", id: "how-it-works" },
     { name: "Pricing", id: "/pricing" },
     { name: "Features", id: "features" },
-    { name: "About Us", id: "/about-us" },
+    { name: "About Us", id: "/about" },
     { name: "Contact", id: "/contact" }
   ];
 

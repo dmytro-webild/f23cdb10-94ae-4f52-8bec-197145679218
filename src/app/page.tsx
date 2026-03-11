@@ -72,7 +72,7 @@ export default function HomePage() {
               id: "step-1",              title: "Comprehensive Digital Audit",              description: "We analyze your current marketing presence, identify hidden opportunities, and provide a detailed roadmap for improvement. This free audit alone reveals what's working and what's costing you leads.",              tag: "Step 1"
             },
             {
-              id: "step-2",              title: "Powered Targeting Strategy",              description: "Our proprietary algorithms identify and reach your ideal customers at exactly the right moment. We focus on high-intent prospects ready to book—not random clicks.",              tag: "Step 2"
+              id: "step-2",              title: "Precision Targeting Strategy",              description: "Our proprietary algorithms identify and reach your ideal customers at exactly the right moment. We focus on high-intent prospects ready to book—not random clicks.",              tag: "Step 2"
             },
             {
               id: "step-3",              title: "Dedicated Account Management",              description: "You get a dedicated strategy team managing your campaigns daily. Monthly calls, weekly reporting, and real-time optimization ensures nothing falls through the cracks.",              tag: "Step 3"

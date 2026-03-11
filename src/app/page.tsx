@@ -89,26 +89,17 @@ export default function HomePage() {
 
       <div id="features" data-section="features">
         <FeatureCardMedia
-          title="Why Service Businesses Trust Navo Lab"
+          title="Why Service Businesses Choose Navo Lab"
           description="Built specifically for HVAC, plumbing, electrical, roofing, construction, and service companies. We understand your business because we've worked in it."
           features={[
             {
-              id: "feature-1",              title: "Transparent Monthly Reporting",              description: "See exactly where every dollar goes and what it generates. We report leads delivered, appointment bookings, and actual ROI. No vanity metrics or misleading numbers—just the truth.",              tag: "Transparency",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AP5BwcOCEdbUvGXGzmfDl4faxC/digital-audit-report-or-analytics-dashbo-1772481636177-fcab0e9b.png?_wi=2",              imageAlt: "Transparent reporting dashboard"
+              id: "feature-1",              title: "Full-Stack Growth Engine",              description: "Other agencies do SEO or content. We run the full system — SEO, lead funnels, content, and distribution — integrated as one engine.",              tag: "Growth"
             },
             {
-              id: "feature-2",              title: "Dedicated Account Manager",              description: "Your account manager understands your business, your goals, and your challenges. They're not just processing orders—they're strategizing to maximize your ROI every single month.",              tag: "Support",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AP5BwcOCEdbUvGXGzmfDl4faxC/professional-headshot-of-diverse-team-me-1772481633100-b1fe8b6c.png?_wi=1",              imageAlt: "Dedicated account manager"
+              id: "feature-2",              title: "Proven on Real Businesses",              description: "We built and tested our system on real companies before offering it to anyone else. Our results speak for themselves.",              tag: "Proven"
             },
             {
-              id: "feature-3",              title: "Precision Targeting",              description: "Advanced machine learning identifies prospects searching for your services right now. We reach them with the right message at the right time, maximizing conversion potential.",              tag: "Technology",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AP5BwcOCEdbUvGXGzmfDl4faxC/abstract-futuristic-ai-technology-visual-1772481632775-04d1d2d8.png?_wi=2",              imageAlt: "Targeting technology"
-            },
-            {
-              id: "feature-4",              title: "Multi-Vertical Industry Expertise",              description: "We've successfully generated leads for HVAC, plumbing, electrical, roofing, construction, and other service verticals. We know your industry's seasonality, pricing cycles, and booking patterns.",              tag: "Expertise",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AP5BwcOCEdbUvGXGzmfDl4faxC/confident-service-business-owner-hvac-pl-1772481633162-358c5800.png?_wi=1",              imageAlt: "Service business expertise"
-            },
-            {
-              id: "feature-5",              title: "Predictable Monthly Lead Pipeline",              description: "Stop guessing about next month's leads. With Navo Lab, you plan budgets around consistent, reliable lead flow. Scale your team with confidence knowing leads will arrive.",              tag: "Growth",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AP5BwcOCEdbUvGXGzmfDl4faxC/close-up-of-smartphone-showing-incoming--1772481632952-a4ba83a2.png?_wi=2",              imageAlt: "Predictable lead flow"
-            },
-            {
-              id: "feature-6",              title: "Free Digital Audit (No Credit Card Required)",              description: "Start risk-free. We'll conduct a comprehensive audit of your current marketing, identify opportunities you're missing, and show you exactly what's possible.",              tag: "Offer",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AP5BwcOCEdbUvGXGzmfDl4faxC/call-to-action-visual-for-free-digital-a-1772481633412-e1dd491a.png?_wi=1",              imageAlt: "Free digital audit offer"
+              id: "feature-3",              title: "No Vanity Metrics",              description: "We don't sell impressions or followers. We track leads, revenue, and ROI. If your phone isn't ringing more, we're not doing our job.",              tag: "Transparency"
             }
           ]}
           animationType="slide-up"

@@ -64,21 +64,21 @@ export default function HomePage() {
       <div id="how-it-works" data-section="how-it-works">
         <FeatureCardMedia
           title="Our Proven 4-Step Process"
-          description="We turn your lead generation from unpredictable to systematic with a process designed specifically for service businesses"
+          description="Our proven process turns our online presence into a lead-generating machine"
           tag="Process"
           tagAnimation="slide-up"
           features={[
             {
-              id: "step-1",              title: "Comprehensive Digital Audit",              description: "We analyze your current marketing presence, identify hidden opportunities, and provide a detailed roadmap for improvement. This free audit alone reveals what's working and what's costing you leads.",              tag: "Step 1"
+              id: "step-1",              title: "Deep Audit",              description: "We analyze your online presence and competitors to understand your market positioning, identify gaps in your current strategy, and discover untapped opportunities for lead generation growth.",              tag: "Step 1"
             },
             {
-              id: "step-2",              title: "Precision Targeting Strategy",              description: "Our proprietary algorithms identify and reach your ideal customers at exactly the right moment. We focus on high-intent prospects ready to book—not random clicks.",              tag: "Step 2"
+              id: "step-2",              title: "Build Your Engine",              description: "We execute our proven 22-point digital marketing system designed specifically for service businesses. This comprehensive approach covers all channels necessary to generate consistent, qualified leads.",              tag: "Step 2"
             },
             {
-              id: "step-3",              title: "Dedicated Account Management",              description: "You get a dedicated strategy team managing your campaigns daily. Monthly calls, weekly reporting, and real-time optimization ensures nothing falls through the cracks.",              tag: "Step 3"
+              id: "step-3",              title: "Launch and Optimize",              description: "Your SEO strategy goes live across all channels. We implement weekly optimization protocols to continuously improve performance, test new strategies, and refine targeting based on real-time data.",              tag: "Step 3"
             },
             {
-              id: "step-4",              title: "Phone-Ready Qualified Leads",              description: "Receive consistent, qualified leads delivered to your phone and email. These are decision-makers ready to book appointments—not just inquiries or tire-kickers.",              tag: "Step 4"
+              id: "step-4",              title: "Your Phone Rings",              description: "Your pipeline fills with qualified leads ready to book. We deliver decision-makers actively seeking your services, converting your marketing into real appointments and revenue for your business.",              tag: "Step 4"
             }
           ]}
           animationType="slide-up"

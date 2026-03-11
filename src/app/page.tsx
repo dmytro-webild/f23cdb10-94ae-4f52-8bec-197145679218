@@ -42,15 +42,15 @@ export default function HomePage() {
 
       <div id="hero" data-section="hero">
         <HeroSplit
-          title="Transform Your Service Business with Predictable Lead Flow"
-          description="Navo Lab delivers qualified, phone-ready leads for HVAC, plumbing, electrical, roofing, and construction companies using AI-powered targeting and proven strategies. Get your free digital audit today."
-          tag="AI-Powered Lead Generation"
+          title="We Make Your Phone Ring"
+          description="Navo Lab is the growth engine for service businesses. We drive rankings, leads, and revenue through SEO, lead funnel optimization, and strategic content that compounds over time. No vanity metrics. Just results."
+          tag="Digital Marketing for Local Businesses"
           tagIcon={Zap}
           tagAnimation="slide-up"
           background={{ variant: "glowing-orb" }}
           buttons={[
-            { text: "Get Your Free Audit", href: "/contact" },
-            { text: "Watch Demo", href: "https://www.youtube.com" }
+            { text: "Book a Call", href: "/contact" },
+            { text: "See How It Works", href: "#how-it-works" }
           ]}
           buttonAnimation="slide-up"
           imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AP5BwcOCEdbUvGXGzmfDl4faxC/a-modern-ai-powered-lead-generation-dash-1772481633855-c10db891.png"
@@ -72,7 +72,7 @@ export default function HomePage() {
               id: "step-1",              title: "Comprehensive Digital Audit",              description: "We analyze your current marketing presence, identify hidden opportunities, and provide a detailed roadmap for improvement. This free audit alone reveals what's working and what's costing you leads.",              tag: "Step 1"
             },
             {
-              id: "step-2",              title: "AI-Powered Targeting Strategy",              description: "Our proprietary algorithms identify and reach your ideal customers at exactly the right moment. We focus on high-intent prospects ready to book—not random clicks.",              tag: "Step 2"
+              id: "step-2",              title: "Powered Targeting Strategy",              description: "Our proprietary algorithms identify and reach your ideal customers at exactly the right moment. We focus on high-intent prospects ready to book—not random clicks.",              tag: "Step 2"
             },
             {
               id: "step-3",              title: "Dedicated Account Management",              description: "You get a dedicated strategy team managing your campaigns daily. Monthly calls, weekly reporting, and real-time optimization ensures nothing falls through the cracks.",              tag: "Step 3"
@@ -99,7 +99,7 @@ export default function HomePage() {
               id: "feature-2",              title: "Dedicated Account Manager",              description: "Your account manager understands your business, your goals, and your challenges. They're not just processing orders—they're strategizing to maximize your ROI every single month.",              tag: "Support",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AP5BwcOCEdbUvGXGzmfDl4faxC/professional-headshot-of-diverse-team-me-1772481633100-b1fe8b6c.png?_wi=1",              imageAlt: "Dedicated account manager"
             },
             {
-              id: "feature-3",              title: "AI-Powered Precision Targeting",              description: "Advanced machine learning identifies prospects searching for your services right now. We reach them with the right message at the right time, maximizing conversion potential.",              tag: "Technology",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AP5BwcOCEdbUvGXGzmfDl4faxC/abstract-futuristic-ai-technology-visual-1772481632775-04d1d2d8.png?_wi=2",              imageAlt: "AI targeting technology"
+              id: "feature-3",              title: "Precision Targeting",              description: "Advanced machine learning identifies prospects searching for your services right now. We reach them with the right message at the right time, maximizing conversion potential.",              tag: "Technology",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AP5BwcOCEdbUvGXGzmfDl4faxC/abstract-futuristic-ai-technology-visual-1772481632775-04d1d2d8.png?_wi=2",              imageAlt: "Targeting technology"
             },
             {
               id: "feature-4",              title: "Multi-Vertical Industry Expertise",              description: "We've successfully generated leads for HVAC, plumbing, electrical, roofing, construction, and other service verticals. We know your industry's seasonality, pricing cycles, and booking patterns.",              tag: "Expertise",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AP5BwcOCEdbUvGXGzmfDl4faxC/confident-service-business-owner-hvac-pl-1772481633162-358c5800.png?_wi=1",              imageAlt: "Service business expertise"
@@ -143,18 +143,18 @@ export default function HomePage() {
           plans={[
             {
               id: "foundation",              badge: "Foundation",              price: "$2,000",              subtitle: "Perfect for businesses starting their digital lead generation journey",              features: [
-                "Qualified leads delivered monthly",                "Weekly progress reporting",                "Basic AI targeting setup",                "Email support",                "Monthly strategy review"
+                "Qualified leads delivered monthly",                "Weekly progress reporting",                "Basic targeting setup",                "Email support",                "Monthly strategy review"
               ]
             },
             {
               id: "growth",              badge: "Growth",              badgeIcon: Sparkles,
               price: "$3,500",              subtitle: "Most Popular - Ideal for growing service businesses ready to scale",              features: [
-                "Consistent qualified leads monthly",                "Weekly progress reporting",                "Advanced AI targeting",                "Dedicated account manager",                "Monthly strategy calls",                "Detailed metrics dashboard",                "Campaign optimization"
+                "Consistent qualified leads monthly",                "Weekly progress reporting",                "Advanced targeting",                "Dedicated account manager",                "Monthly strategy calls",                "Detailed metrics dashboard",                "Campaign optimization"
               ]
             },
             {
               id: "scale",              badge: "Scale",              price: "$5,000",              subtitle: "Maximum lead volume and priority support for established businesses",              features: [
-                "Maximum qualified leads monthly",                "Weekly progress reporting",                "Advanced AI + custom targeting",                "Dedicated account manager + specialist",                "Bi-weekly strategy calls",                "Detailed metrics dashboard",                "Advanced campaign optimization",                "Priority support",                "Quarterly business reviews"
+                "Maximum qualified leads monthly",                "Weekly progress reporting",                "Advanced + custom targeting",                "Dedicated account manager + specialist",                "Bi-weekly strategy calls",                "Detailed metrics dashboard",                "Advanced campaign optimization",                "Priority support",                "Quarterly business reviews"
               ]
             }
           ]}
